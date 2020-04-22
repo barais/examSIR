@@ -4,7 +4,7 @@ package fr.istic.taa.jaxrs.domain;
 @javax.persistence.Entity
 
 public class TODOListItem implements java.io.Serializable
-{ 
+{  
     private static final long serialVersionUID = 1L;
 
     @javax.persistence.Id

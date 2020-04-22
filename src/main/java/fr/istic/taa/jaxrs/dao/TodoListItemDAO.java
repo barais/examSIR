@@ -5,6 +5,7 @@ import java.util.List;
 
 import javax.persistence.TemporalType;
 
+import fr.istic.taa.jaxrs.dao.generic.AbstractJpaDao;
 import fr.istic.taa.jaxrs.domain.Person;
 import fr.istic.taa.jaxrs.domain.TODOListItem;
 
@@ -14,7 +15,7 @@ public class TodoListItemDAO extends AbstractJpaDao<Long, TODOListItem>{
 	public TodoListItemDAO() {
 		super();
 		this.setClazz(TODOListItem.class);
-	}	
+	}	 
 	
 	
 	//Q12

@@ -7,7 +7,7 @@ public class Person implements java.io.Serializable
 {
     private static final long serialVersionUID = 1L;
 
-    @javax.persistence.Id
+    @javax.persistence.Id 
     private long id;
     
     private java.lang.String name;

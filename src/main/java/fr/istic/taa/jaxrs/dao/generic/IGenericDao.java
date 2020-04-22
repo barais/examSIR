@@ -1,4 +1,4 @@
-package fr.istic.taa.jaxrs.dao;
+package fr.istic.taa.jaxrs.dao.generic;
 
 import java.io.Serializable;
 import java.util.List;

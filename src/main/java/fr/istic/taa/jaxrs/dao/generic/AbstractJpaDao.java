@@ -1,4 +1,4 @@
-package fr.istic.taa.jaxrs.dao;
+package fr.istic.taa.jaxrs.dao.generic;
 
 import java.io.Serializable;
 import java.util.List;
@@ -10,7 +10,7 @@ public abstract class AbstractJpaDao<K, T extends Serializable> implements IGene
 
 	private Class<T> clazz;
 
-	EntityManager entityManager;
+	protected EntityManager entityManager;
 
 	public AbstractJpaDao() {
 		this.entityManager = EntityManagerHelper.getEntityManager();

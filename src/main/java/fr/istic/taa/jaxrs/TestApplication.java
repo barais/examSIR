@@ -17,6 +17,9 @@
 package fr.istic.taa.jaxrs;
 
 import javax.ws.rs.core.Application;
+
+import fr.istic.taa.jaxrs.rest.TodoListItemRestEndpoint;
+
 import java.util.HashSet;
 import java.util.Set;
 
